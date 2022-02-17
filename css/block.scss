@@ -1,0 +1,144 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+.page {
+  padding: 0px 18px;
+  // .page__body
+
+  &__body {
+  }
+
+  // .page__title
+
+  &__title {
+      font-family: Heebo;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 44px;
+      line-height: 60px;
+      color: #21243D;
+      margin: 90px 0px 55px 0px;
+  }
+
+  // .page__colum
+
+  &__colum {
+      >*:not(:last-child){
+        padding: 0px 0px 16px 0px;
+      }
+      padding: 29px 0px;
+      border-bottom: 1px solid black;
+    // .page__colum_title
+
+    &_title {
+      font-family: Heebo;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 44px;
+      color: #21243D;
+      
+    }
+
+    // .page__colum_data
+
+    &_data {
+      display: flex;
+    }
+
+    // .page__colum_den
+
+    &_den {
+      font-family: Heebo;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 29px;
+      color: #21243D;
+      padding: 0px 30px 0px 0px;
+      border-right: 1px solid black;
+    }
+
+    // .page__colum_nazv
+
+    &_nazv {
+      font-family: Heebo;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 29px;
+      color: #8695A4;
+      padding: 0px 0px 0px 30px;
+    }
+
+    // .page__colum_text
+
+    &_text {
+      font-family: Heebo;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 23px;
+      color: #21243D;
+
+    }
+  } 
+  @media (max-width: 770px) {
+      &__title{
+        font-size: 30px;
+        margin: 34px 0px 0px 0px;
+      }
+      &__colum_title{
+        font-size: 26px;
+      }
+    }
+    &__colum_nazv{
+      padding: 0px 0px 0px 12px;
+      font-size: 16px;
+    }
+    &__colum_den{
+      font-size: 16px;
+      padding: 0px 12px 0px 0px;
+    }
+    &__colum{
+    padding: 20px 0px 20px 0px ;
+  
+  }
+}
+.container {
+}

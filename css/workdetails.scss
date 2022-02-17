@@ -1,0 +1,167 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*------------------------------------------------------------*/
+
+.page {
+}
+.designing {
+
+		// .designing__body
+
+		&__body {
+      padding: 78px 0px 0px 0px;
+		}
+
+		// .designing__colums
+
+		&__colums {
+		}
+
+		// .designing__colum
+
+		&__colum {
+		}
+
+		// .designing__item
+
+		&__item {
+		}
+
+		// .designing__content
+
+		&__content {
+
+			// .designing__content_title
+
+			&_title {
+			}
+
+			// .designing__content_data
+
+			&_data {
+			}
+
+			// .designing__content_den
+
+			&_den {
+			}
+
+			// .designing__content_dash
+
+			&_dash {
+			}
+
+			// .designing__content_subtitle
+
+			&_subtitle {
+			}
+		}
+}
+.image {
+  text-align: center;
+
+}
+  @media (max-width:770px) {
+    .image {
+      max-width: 678px;
+      img{
+        width: 100%;
+      }
+  }}
+.container {
+}
+.content {
+
+  // .content__title
+
+  &__title {
+    font-family: Heebo;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 60px;
+      color: #21243D;
+    padding: 54px 0px 20px 0px;
+
+  }
+
+  // .content__text
+
+  &__text {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    padding: 0px 0px 30px 0px;
+  }
+
+  // .content__image1
+
+  &__image1 {
+    text-align: center;
+    max-width: 600px;
+    img{
+      width: 100%;
+    }
+  }
+
+  // .content__image2
+
+  &__image2 {
+    text-align: center;
+    max-width: 600px;
+    img{
+      width: 100%;
+    }
+  }
+  @media (max-width:770px) {
+  &__image1 {
+    max-width: 600px;
+    img{
+      width: 100%;
+    }
+  }
+  &__image2 {
+    max-width: 600px;
+    img{
+      width: 100%;
+    }
+  }
+}
+}
